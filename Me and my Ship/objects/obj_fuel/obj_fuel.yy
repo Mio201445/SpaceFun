@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fueltank_top",
+  "%Name":"obj_fuel",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_fueltank_top","path":"objects/obj_fueltank_top/obj_fueltank_top.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_fueltank_top",
+  "name":"obj_fuel",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fueltank",
-    "path":"sprites/spr_fueltank/spr_fueltank.yy",
+    "name":"spr_fuel",
+    "path":"sprites/spr_fuel/spr_fuel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
