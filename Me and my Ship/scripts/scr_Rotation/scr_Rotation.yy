@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script1",
+  "%Name":"scr_Rotation",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"scr_Rotation",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

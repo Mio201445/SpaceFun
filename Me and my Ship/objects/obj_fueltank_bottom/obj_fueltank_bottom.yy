@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fuel",
+  "%Name":"obj_fueltank_bottom",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_fueltank_top","path":"objects/obj_fueltank_top/obj_fueltank_top.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_fueltank_bottom","path":"objects/obj_fueltank_bottom/obj_fueltank_bottom.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_fuel",
+  "name":"obj_fueltank_bottom",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fuel",
-    "path":"sprites/spr_fuel/spr_fuel.yy",
+    "name":"spr_fueltank",
+    "path":"sprites/spr_fueltank/spr_fueltank.yy",
   },
   "spriteMaskId":null,
   "visible":true,
