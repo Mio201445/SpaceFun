@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+x_vector = x-ShipPlayer.x
+y_vector = y-ShipPlayer.y
 direction = ShipPlayer.direction
-
+if (wait = false){
 if (!place_meeting(x, y + 1, ShipPlayer)){
 	
 	//gravity = 0.01
@@ -23,7 +24,7 @@ else if (place_meeting(x, y, ShipPlayer)){
 	
 }
 
-
+}
 
 if (keyboard_check(vk_right)){
 	
