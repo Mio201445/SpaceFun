@@ -40,6 +40,7 @@
     {"id":{"name":"ShipPlayer","path":"objects/ShipPlayer/ShipPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"spr_ammo","path":"sprites/spr_ammo/spr_ammo.yy",},},
     {"id":{"name":"spr_ammotank","path":"sprites/spr_ammotank/spr_ammotank.yy",},},
     {"id":{"name":"spr_collisionmask","path":"sprites/spr_collisionmask/spr_collisionmask.yy",},},

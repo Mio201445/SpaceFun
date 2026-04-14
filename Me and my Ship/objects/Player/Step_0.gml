@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-x_vector = x-ShipPlayer.x
-y_vector = y-ShipPlayer.y
+scr_Rotation()
 direction = ShipPlayer.direction
 if (wait = false){
 if (!place_meeting(x, y + 1, ShipPlayer)){

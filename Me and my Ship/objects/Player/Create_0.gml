@@ -5,6 +5,5 @@ gravityModifier = 2
 moveSpeed = 4
 fallSpeed = 4
 
-x_vector = x-ShipPlayer.x
-y_vector = y-ShipPlayer.y
+
 wait = false
