@@ -4,20 +4,20 @@
 image_angle = direction - 90
 show_debug_message(direction)
 
-if (keyboard_check(ord("A"))){
-	direction += rotationSpeed
+if (keyboard_check_pressed(ord("A"))){
+	direction += 90
 }
 
-else if (keyboard_check(ord("D"))){
-	direction -= rotationSpeed
+else if (keyboard_check_pressed(ord("D"))){
+	direction -= 90
 }
 
 
 if (keyboard_check(ord("W"))){
-	speed = moveSpeed
+	speed = global.shipmoveSpeed
 }
 else if (keyboard_check(ord("S"))){
-	speed = -moveSpeed
+	speed = -global.shipmoveSpeed
 }
 else {
 	speed = 0

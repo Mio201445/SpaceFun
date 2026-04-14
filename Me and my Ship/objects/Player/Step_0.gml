@@ -1,9 +1,60 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
+if (!place_meeting(x, y + 1, ShipPlayer)){
+	
+	//gravity = 0.01
+	
+	vspeed = 1
+	
+	
+}
+else {
+	//gravity = 0
+	
+	vspeed = 0
+	
+	
+}
+
+
+
 if (keyboard_check(vk_right)){
-	x = x + moveSpeed
+	
+	if (place_meeting(x + 1, y, ShipPlayer)){
+		x = x
+	}
+	else {
+		
+		x = x + moveSpeed
+	}
+	
+	
 }
 else if (keyboard_check(vk_left)){
-	x = x - moveSpeed
+	
+	if (place_meeting(x - 1, y, ShipPlayer)){
+		x = x
+	}
+	else
+	{
+		x = x - moveSpeed
+		
+	}
 }
+
+if (keyboard_check(ord("W"))){
+	speed = -global.shipmoveSpeed
+}
+else if (keyboard_check(ord("S"))){
+	speed = global.shipmoveSpeed
+}
+else {
+	speed = 0
+}
+
+
+
+
