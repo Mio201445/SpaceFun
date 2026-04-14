@@ -34,7 +34,14 @@
   },
   "name":"Me and my Ship",
   "resources":[
+<<<<<<< Updated upstream
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},},
+=======
+    {"id":{"name":"controller","path":"objects/controller/controller.yy",},},
+    {"id":{"name":"obj_fuel","path":"objects/obj_fuel/obj_fuel.yy",},},
+    {"id":{"name":"obj_fueltank_botom","path":"objects/obj_fueltank_botom/obj_fueltank_botom.yy",},},
+    {"id":{"name":"obj_fueltank_top","path":"objects/obj_fueltank_top/obj_fueltank_top.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"obj_motor1","path":"objects/obj_motor1/obj_motor1.yy",},},
     {"id":{"name":"obj_motor2","path":"objects/obj_motor2/obj_motor2.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
@@ -46,8 +53,8 @@
     {"id":{"name":"spr_ammotank","path":"sprites/spr_ammotank/spr_ammotank.yy",},},
     {"id":{"name":"spr_asteroid","path":"sprites/spr_asteroid/spr_asteroid.yy",},},
     {"id":{"name":"spr_collisionmask","path":"sprites/spr_collisionmask/spr_collisionmask.yy",},},
-    {"id":{"name":"spr_fule","path":"sprites/spr_fule/spr_fule.yy",},},
-    {"id":{"name":"spr_fuletank","path":"sprites/spr_fuletank/spr_fuletank.yy",},},
+    {"id":{"name":"spr_fuel","path":"sprites/spr_fuel/spr_fuel.yy",},},
+    {"id":{"name":"spr_fueltank","path":"sprites/spr_fueltank/spr_fueltank.yy",},},
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},},
     {"id":{"name":"spr_motor","path":"sprites/spr_motor/spr_motor.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
