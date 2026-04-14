@@ -1,12 +1,12 @@
 {
   "$GMSprite":"",
   "%Name":"spr_ship",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":0,
   "bbox_left":0,
   "bbox_right":0,
   "bbox_top":0,
-  "collisionKind":1,
+  "collisionKind":4,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":480,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"2b4b2b9a-0454-4fe4-bdbb-448f2d44a834","blendMode":0,"displayName":"default","isLocked":false,"name":"2b4b2b9a-0454-4fe4-bdbb-448f2d44a834","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":480,
 }
