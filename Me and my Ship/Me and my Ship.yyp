@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Me and my Ship",
   "resources":[
@@ -38,6 +38,7 @@
     {"id":{"name":"obj_motor1","path":"objects/obj_motor1/obj_motor1.yy",},},
     {"id":{"name":"obj_motor2","path":"objects/obj_motor2/obj_motor2.yy",},},
     {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},},
+    {"id":{"name":"Object7","path":"objects/Object7/Object7.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"ShipPlayer","path":"objects/ShipPlayer/ShipPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
