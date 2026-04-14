@@ -1,0 +1,1 @@
+obj_motor1.image_index = 1

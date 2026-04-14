@@ -50,6 +50,7 @@
     {"id":{"name":"spr_ammo","path":"sprites/spr_ammo/spr_ammo.yy",},},
     {"id":{"name":"spr_ammotank","path":"sprites/spr_ammotank/spr_ammotank.yy",},},
     {"id":{"name":"spr_asteroid","path":"sprites/spr_asteroid/spr_asteroid.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_collisionmask","path":"sprites/spr_collisionmask/spr_collisionmask.yy",},},
     {"id":{"name":"spr_fuel","path":"sprites/spr_fuel/spr_fuel.yy",},},
     {"id":{"name":"spr_fueltank","path":"sprites/spr_fueltank/spr_fueltank.yy",},},
@@ -62,8 +63,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

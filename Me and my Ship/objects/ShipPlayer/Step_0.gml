@@ -13,11 +13,15 @@ else if (keyboard_check_pressed(ord("D"))){
 }
 
 
-if (keyboard_check(ord("W"))){
+if (global.fuel_bottom > 0 and keyboard_check(ord("W"))){
 	speed = global.shipmoveSpeed
+	obj_motor1.image_index = 0
+	global.fuel_bottom -=0.2
 }
-else if (keyboard_check(ord("S"))){
+else if (global.fuel_bottom > 0 and keyboard_check(ord("S"))){
 	speed = -global.shipmoveSpeed
+	obj_motor2.image_index = 0
+	global.fuel_top -=0.2
 }
 else {
 	speed = 0
