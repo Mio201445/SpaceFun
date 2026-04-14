@@ -6,5 +6,5 @@ if (alarm_get(0) < 0){
 	
 	
 	
-	alarm_set(0, 50)
+	alarm_set(0, 100)
 }
