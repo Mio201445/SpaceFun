@@ -9,15 +9,17 @@ if (!place_meeting(x, y + 1, ShipPlayer)){
 	
 	//vspeed = 1
 	
-	y += 2
+	y += gravityModifier
 	
 	
 }
-else {
+
+else if (place_meeting(x, y, ShipPlayer)){
+	
 	//gravity = 0
 	
 	y = yprevious
-	
+
 	
 }
 
