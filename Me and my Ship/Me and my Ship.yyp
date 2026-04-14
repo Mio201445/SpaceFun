@@ -30,10 +30,11 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Me and my Ship",
   "resources":[
+    {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},},
     {"id":{"name":"obj_motor1","path":"objects/obj_motor1/obj_motor1.yy",},},
     {"id":{"name":"obj_motor2","path":"objects/obj_motor2/obj_motor2.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
@@ -43,6 +44,7 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"spr_ammo","path":"sprites/spr_ammo/spr_ammo.yy",},},
     {"id":{"name":"spr_ammotank","path":"sprites/spr_ammotank/spr_ammotank.yy",},},
+    {"id":{"name":"spr_asteroid","path":"sprites/spr_asteroid/spr_asteroid.yy",},},
     {"id":{"name":"spr_collisionmask","path":"sprites/spr_collisionmask/spr_collisionmask.yy",},},
     {"id":{"name":"spr_fule","path":"sprites/spr_fule/spr_fule.yy",},},
     {"id":{"name":"spr_fuletank","path":"sprites/spr_fuletank/spr_fuletank.yy",},},
@@ -55,8 +57,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
