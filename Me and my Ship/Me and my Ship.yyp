@@ -34,6 +34,7 @@
   },
   "name":"Me and my Ship",
   "resources":[
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"ShipPlayer","path":"objects/ShipPlayer/ShipPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_ammo","path":"sprites/spr_ammo/spr_ammo.yy",},},
