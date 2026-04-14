@@ -5,4 +5,9 @@ y = random(room_height)
 
 
 direction = random_range(0, 360)
-speed = random_range(2, 10)
+speed = random_range(2, 4)
+rotationSpeed = random_range(2, 6)
+
+if (place_meeting(x, y, ShipPlayer)){
+	instance_destroy()
+}
