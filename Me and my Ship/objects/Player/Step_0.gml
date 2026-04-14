@@ -1,20 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+direction = ShipPlayer.direction
 
 if (!place_meeting(x, y + 1, ShipPlayer)){
 	
 	//gravity = 0.01
 	
-	vspeed = 1
+	//vspeed = 1
+	
+	y += 2
 	
 	
 }
 else {
 	//gravity = 0
 	
-	vspeed = 0
+	y = yprevious
 	
 	
 }
@@ -46,10 +48,10 @@ else if (keyboard_check(vk_left)){
 }
 
 if (keyboard_check(ord("W"))){
-	speed = -global.shipmoveSpeed
+	speed = global.shipmoveSpeed
 }
 else if (keyboard_check(ord("S"))){
-	speed = global.shipmoveSpeed
+	speed = -global.shipmoveSpeed
 }
 else {
 	speed = 0
