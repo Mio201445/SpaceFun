@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Me and my Ship",
   "resources":[
@@ -52,6 +52,7 @@
     {"id":{"name":"obj_projectileright","path":"objects/obj_projectileright/obj_projectileright.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"ShipPlayer","path":"objects/ShipPlayer/ShipPlayer.yy",},},
+    {"id":{"name":"DestroyAsteroid","path":"particles/DestroyAsteroid/DestroyAsteroid.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"scr_Rotation","path":"scripts/scr_Rotation/scr_Rotation.yy",},},
