@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (array_length(obj_gamepads.gamepads) > 0){
+
 scr_Rotation()
 direction = ShipPlayer.direction
 
-
+//obj_gamepads.gamepads[0]
 //WALL COLLISION SOLUTION!
 
 
@@ -78,7 +80,7 @@ break;
 
 }
 
-gravity = gravityModifier
+
 
 
 if (wait = false){
@@ -127,29 +129,54 @@ if (wait = false){
 //}
 
 //movement
-if (keyboard_check(vk_right)){
-	
-	if (place_meeting(x + 1, y, ShipPlayer)){
-		x = xprevious
-	}
-	else {
-		
-		x = x + moveSpeed
-	}
-	
+
+horisontal_movement = gamepad_axis_value(obj_gamepads.gamepads[0], gp_axislh) * 2
+
+x = x + horisontal_movement 
+
+//jump
+if (gamepad_button_check_pressed(obj_gamepads.gamepads[0], gp_face1)){
+	isJumping = true
 	
 }
-else if (keyboard_check(vk_left)){
+
+if(isJumping = true){
+	//for(var i = 0; i < 50; ++i) {
 	
-	if (place_meeting(x - 1, y, ShipPlayer)){
-		x = xprevious
+	if (alarm_get(1) <= 0){
+		alarm_set(1, 20)
+		gravity = -gravityModifier -2
 	}
-	else
-	{
-		x = x - moveSpeed
-		
-	}
+	gravity += 0.4
+} 
+else {
+	gravity = gravityModifier	
+
 }
+
+//if (keyboard_check(vk_right)){
+	
+//	if (place_meeting(x + 1, y, ShipPlayer)){
+//		x = xprevious
+//	}
+//	else {
+		
+//		x = x + moveSpeed
+//	}
+	
+	
+//}
+//else if (keyboard_check(vk_left)){
+	
+//	if (place_meeting(x - 1, y, ShipPlayer)){
+//		x = xprevious
+//	}
+//	else
+//	{
+//		x = x - moveSpeed
+		
+//	}
+//}
 
 if (keyboard_check(ord("W"))){
 	speed = global.shipmoveSpeed
@@ -161,14 +188,7 @@ else {
 	speed = 0
 }
 
-if (keyboard_check_pressed(vk_up)){
-	
-	gravity = 0
-	alarm_set(1, 10)
-	y -= jumpForce
-	isGrounded = false
-	isJumping = true
-	
+
 }
 
 
