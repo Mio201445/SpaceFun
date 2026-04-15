@@ -34,6 +34,7 @@
   },
   "name":"Me and my Ship",
   "resources":[
+    {"id":{"name":"obj_ammo_storrage","path":"objects/obj_ammo_storrage/obj_ammo_storrage.yy",},},
     {"id":{"name":"obj_ammo","path":"objects/obj_ammo/obj_ammo.yy",},},
     {"id":{"name":"obj_ammotank_right","path":"objects/obj_ammotank_right/obj_ammotank_right.yy",},},
     {"id":{"name":"obj_asteroid_controller","path":"objects/obj_asteroid_controller/obj_asteroid_controller.yy",},},
