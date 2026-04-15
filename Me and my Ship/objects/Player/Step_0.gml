@@ -192,15 +192,15 @@ else {
 //	}
 //}
 
-if (keyboard_check(ord("W"))){
-	speed = global.shipmoveSpeed
-}
-else if (keyboard_check(ord("S"))){
-	speed = -global.shipmoveSpeed
-}
-else {
-	speed = 0
-}
+//if (keyboard_check(ord("W"))){
+//	speed = global.shipmoveSpeed
+//}
+//else if (keyboard_check(ord("S"))){
+//	speed = -global.shipmoveSpeed
+//}
+//else {
+//	speed = 0
+//}
 
 
 }

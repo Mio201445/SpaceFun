@@ -25,7 +25,7 @@ if (global.fuel_bottom > 0 and keyboard_check(ord("W"))){
 	obj_motor1.image_index = 0
 	global.fuel_bottom -=0.2
 }
-else if (global.fuel_bottom > 0 and keyboard_check(ord("S"))){
+else if (global.fuel_top > 0 and keyboard_check(ord("S"))){
 	speed = -global.shipmoveSpeed
 	obj_motor2.image_index = 0
 	global.fuel_top -=0.2
