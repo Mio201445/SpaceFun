@@ -22,7 +22,7 @@ if (place_meeting(x, y, obj_projectileleft)){
 	instance_destroy(target)
 	
 	if (image_index = 1){
-		
+	
 		instance_destroy()
 		
 	}
