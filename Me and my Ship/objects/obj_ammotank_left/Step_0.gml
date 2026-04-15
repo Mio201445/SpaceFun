@@ -1,5 +1,5 @@
 scr_Rotation()
-show_debug_message(global.ammo_left)
+
 if (100 >= global.ammo_left and global.ammo_left >= 75){
 	image_index = 0
 }
@@ -15,7 +15,7 @@ else if (25 > global.ammo_left and global.ammo_left> 0){
 else if (global.ammo_left <= 0 ){
 	image_index = 4
 }
-show_debug_message(global.ammo_left)
+
 if (global.ammo_left < 0){
 	global.ammo_left = 0
 }

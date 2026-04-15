@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 image_angle = direction - 90
-show_debug_message(direction)
+
 
 if (keyboard_check_pressed(ord("A"))){
 	
@@ -32,4 +32,13 @@ else if (global.fuel_top > 0 and keyboard_check(ord("S"))){
 }
 else {
 	speed = 0
+}
+
+if (place_meeting(x, y, obj_asteroid)){
+	shipHealth -= damage
+	damageTaken += damage
+	
+	var asteroidID = instance_place(x, y, obj_asteroid)
+	instance_destroy(asteroidID)
+    show_debug_message(shipHealth)
 }

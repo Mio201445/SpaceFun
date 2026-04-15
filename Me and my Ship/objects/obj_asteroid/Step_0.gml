@@ -8,13 +8,13 @@ if (x > room_width|| x < 0 || y > room_height || y < 0){
 	instance_destroy()
 }
 
-if (place_meeting(x, y, ShipPlayer)){
+//if (place_meeting(x, y, ShipPlayer)){
 		
-	instance_destroy()
-	//speed = -speed * 2
+//	instance_destroy()
+//	//speed = -speed * 2
 	
 		
-}
+//}
 
 if (place_meeting(x, y, obj_projectileleft)){
 	

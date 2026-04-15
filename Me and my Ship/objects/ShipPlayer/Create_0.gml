@@ -6,3 +6,5 @@ global.shipmoveSpeed = 4;
 rotationSpeed = 5;
 
 shipHealth = 90
+damageTaken = 0
+damage = 5
