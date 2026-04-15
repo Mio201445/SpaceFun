@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_healthbar",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_healthbar",
   "overriddenProperties":[],
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_healthbar",
+    "path":"sprites/spr_healthbar/spr_healthbar.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
