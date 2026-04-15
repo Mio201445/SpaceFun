@@ -44,6 +44,7 @@
     {"id":{"name":"obj_fuel","path":"objects/obj_fuel/obj_fuel.yy",},},
     {"id":{"name":"obj_fueltank_bottom","path":"objects/obj_fueltank_bottom/obj_fueltank_bottom.yy",},},
     {"id":{"name":"obj_fueltank_top","path":"objects/obj_fueltank_top/obj_fueltank_top.yy",},},
+    {"id":{"name":"obj_gamepads","path":"objects/obj_gamepads/obj_gamepads.yy",},},
     {"id":{"name":"obj_gun1","path":"objects/obj_gun1/obj_gun1.yy",},},
     {"id":{"name":"obj_motor1","path":"objects/obj_motor1/obj_motor1.yy",},},
     {"id":{"name":"obj_motor2","path":"objects/obj_motor2/obj_motor2.yy",},},
