@@ -4,6 +4,7 @@ speed = ShipPlayer.speed
 gravityModifier = 2
 moveSpeed = 4
 fallSpeed = 4
-
-
+isGrounded = false
+isJumping = false
+jumpForce = 15
 wait = false
