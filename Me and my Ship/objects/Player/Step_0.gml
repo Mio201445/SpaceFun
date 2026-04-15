@@ -130,12 +130,21 @@ if (wait = false){
 
 //movement
 
-horisontal_movement = gamepad_axis_value(obj_gamepads.gamepads[0], gp_axislh) * 2
+horisontal_movement = gamepad_axis_value(obj_gamepads.gamepads[0], gp_axislh) * 3
 
 x = x + horisontal_movement 
 
 //jump
-if (gamepad_button_check_pressed(obj_gamepads.gamepads[0], gp_face1)){
+if (place_meeting(x , y + 1, ShipPlayer) and !place_meeting(x + abs(1), y, ShipPlayer) ){
+	
+	isGrounded = true
+}
+else 
+{
+	isGrounded = false
+}
+
+if (gamepad_button_check_pressed(obj_gamepads.gamepads[0], gp_face1) and isGrounded= true){
 	isJumping = true
 	
 }
@@ -147,7 +156,12 @@ if(isJumping = true){
 		alarm_set(1, 20)
 		gravity = -gravityModifier -2
 	}
-	gravity += 0.4
+	if (place_meeting(x , y - 1, ShipPlayer)and !place_meeting(x + abs(1), y, ShipPlayer) ){
+		gravity = 0
+	}
+	if (gravity<gravityModifier){
+		gravity += 0.4
+	}
 } 
 else {
 	gravity = gravityModifier	
