@@ -53,6 +53,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"scr_Rotation","path":"scripts/scr_Rotation/scr_Rotation.yy",},},
+    {"id":{"name":"scr_Shoot","path":"scripts/scr_Shoot/scr_Shoot.yy",},},
     {"id":{"name":"spr_ammo_storrage","path":"sprites/spr_ammo_storrage/spr_ammo_storrage.yy",},},
     {"id":{"name":"spr_ammo","path":"sprites/spr_ammo/spr_ammo.yy",},},
     {"id":{"name":"spr_ammotank","path":"sprites/spr_ammotank/spr_ammotank.yy",},},
