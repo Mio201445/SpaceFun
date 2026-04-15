@@ -7,12 +7,18 @@ function scr_Rotation(){
 	y_vector = y-ShipPlayer.y
 	
 	if (keyboard_check_pressed(ord("A"))){
-		x=ShipPlayer.x+y_vector
-		y=ShipPlayer.y-x_vector
+		if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){	
+		
+			x=ShipPlayer.x+y_vector
+			y=ShipPlayer.y-x_vector
+			}
 	}
 	if (keyboard_check_pressed(ord("D"))){
-		x=ShipPlayer.x-y_vector
-		y=ShipPlayer.y+x_vector
+		
+		if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){	
+			x=ShipPlayer.x-y_vector
+			y=ShipPlayer.y+x_vector
+		}
 	}
 	
 	if (keyboard_check(ord("W"))){

@@ -5,11 +5,18 @@ image_angle = direction - 90
 show_debug_message(direction)
 
 if (keyboard_check_pressed(ord("A"))){
-	direction += 90
+	
+	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
+		
+		direction += 90
+	}
 }
 
 else if (keyboard_check_pressed(ord("D"))){
-	direction -= 90
+	
+	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
+		direction -= 90
+	}
 }
 
 
