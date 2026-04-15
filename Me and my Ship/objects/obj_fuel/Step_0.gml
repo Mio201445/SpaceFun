@@ -81,8 +81,8 @@ break;
 
 }
 if (!held){
-	if (gravity < 4){
-		gravity += 0.01
+	if (gravity < 2){
+		gravity += 0.005
 	}
 }
 else{
