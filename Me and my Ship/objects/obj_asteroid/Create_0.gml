@@ -3,8 +3,10 @@
 x = random(room_width)
 y = random(room_height)
 
-image_xscale = random_range(0.3, 1.5)
+image_xscale = random_range(0.5, 1.5)
 image_yscale = image_xscale
+image_index = 0
+image_speed = 0
 
 
 direction = random_range(0, 360)

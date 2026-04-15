@@ -16,3 +16,43 @@ if (place_meeting(x, y, ShipPlayer)){
 		
 }
 
+if (place_meeting(x, y, obj_projectileleft)){
+	
+	var target = instance_place(x, y, obj_projectileleft)
+	instance_destroy(target)
+	
+	if (image_index = 1){
+		
+		instance_destroy()
+		
+	}
+	
+	if (image_xscale > 1){
+		image_index = 1
+	}
+	else {
+		instance_destroy()
+	}
+	
+	
+}
+
+else if (place_meeting(x, y, obj_projectileright)){
+	
+	var target = instance_place(x, y, obj_projectileright)
+	instance_destroy(target)
+	
+	if (image_index = 1){
+		
+		instance_destroy()
+		
+	}
+	
+	if (image_xscale > 1){
+		image_index = 1
+	}
+	else {
+		instance_destroy()
+	}
+}
+

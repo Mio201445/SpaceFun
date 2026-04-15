@@ -7,4 +7,4 @@ y = ShipPlayer.y
 x_vector = x-ShipPlayer.x
 y_vector = y-ShipPlayer.y
 
-bulletAmount = 5
+bulletAmount = 3
