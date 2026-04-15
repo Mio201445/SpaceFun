@@ -1,27 +1,24 @@
 scr_Rotation()
 
-if (global.ammo_left >= 80){
+if (100 >= global.ammo_left and global.ammo_left >= 75){
 	image_index = 0
 }
-else if (80 > global.ammo_left and global.ammo_left >= 60){
+else if (75 > global.ammo_right and global.ammo_right >= 50){
 	image_index = 1
 }
-else if (60 > global.ammo_left and global.ammo_left>= 40){
+else if (50 > global.ammo_right and global.ammo_right>= 25){
 	image_index = 2
 }
-else if (40 > global.ammo_left and global.ammo_left>= 20){
+else if (25 > global.ammo_right and global.ammo_right> 0){
 	image_index = 3
 }
-else if (20 > global.ammo_left and global.ammo_left > 0){
+else if (0 >= global.ammo_right ){
 	image_index = 4
 }
-else if (0 >= global.ammo_left ){
-	image_index = 5
-}
 
-if (global.ammo_left < 0){
-	global.ammo_left = 0
+if (global.ammo_right < 0){
+	global.ammo_right = 0
 }
-else if (global.ammo_left > 100){
-	global.ammo_left = 100
+else if (global.ammo_right > 100){
+	global.ammo_right = 100
 }
