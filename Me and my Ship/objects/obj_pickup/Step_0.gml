@@ -23,7 +23,10 @@ if (pickedUp) {
 	if (distance_to_object(obj_inventory1) < 50 ){
 		
 		ShipPlayer.shipHealth += 15
-		obj_healthbar.image_index -= 1
+		if (!obj_healthbar.image_index = 0)
+		{
+			obj_healthbar.image_index -= 1
+		}
 		obj_inventory1.image_index += 1
 		instance_destroy()
 	}

@@ -6,6 +6,6 @@ image_index = 0
 
 
 x = ShipPlayer.x
-y = ShipPlayer.y+ 600
+y = ShipPlayer.y + 500
 
 direction = ShipPlayer.direction
