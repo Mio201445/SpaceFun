@@ -4,7 +4,7 @@
 image_angle += rotationSpeed
 
 
-if (x > room_width|| x < 0 || y > room_height || y < 0){
+if (x > room_width+50|| x < -50 || y > room_height+50 || y < -50){
 	instance_destroy()
 }
 

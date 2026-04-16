@@ -88,3 +88,6 @@ if (!held){
 else{
 	gravity = 0
 }
+
+
+//show_debug_message(held)
