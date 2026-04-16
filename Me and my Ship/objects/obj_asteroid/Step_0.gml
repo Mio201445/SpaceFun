@@ -24,6 +24,7 @@ if (place_meeting(x, y, obj_projectileleft)){
 	if (image_index = 1){
 	
 		global.score += image_xscale * 100
+		global.scoreToNextWave += image_xscale * 100
 		instance_destroy()
 		
 	}
@@ -33,6 +34,7 @@ if (place_meeting(x, y, obj_projectileleft)){
 	}
 	else {
 		global.score += image_xscale * 100
+		global.scoreToNextWave += image_xscale * 100
 		instance_destroy()
 	}
 	
@@ -47,6 +49,7 @@ else if (place_meeting(x, y, obj_projectileright)){
 	if (image_index = 1){
 		
 		global.score += image_xscale * 100
+		global.scoreToNextWave += image_xscale * 100
 		instance_destroy()
 		
 	}
@@ -56,6 +59,7 @@ else if (place_meeting(x, y, obj_projectileright)){
 	}
 	else {
 		global.score += image_xscale * 100
+		global.scoreToNextWave += image_xscale * 100
 		instance_destroy()
 	}
 }
