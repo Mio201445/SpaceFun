@@ -16,7 +16,10 @@ if (place_meeting(x, y, ShipPlayer)){
 
 }
 if (pickedUp) {
-	move_towards_point(obj_inventory1.x, obj_inventory1.y, 15)
+	
+	if (alarm_get(0) < 0){
+		alarm_set(0, 20)
+	}
 	if (distance_to_object(obj_inventory1) < 50 ){
 		
 		obj_inventory1.image_index += 1

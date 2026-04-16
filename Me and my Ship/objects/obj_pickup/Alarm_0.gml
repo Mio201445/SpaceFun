@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-vspeed = 1
+move_towards_point(obj_inventory1.x, obj_inventory1.y, 15)
