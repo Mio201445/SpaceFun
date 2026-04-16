@@ -2,9 +2,7 @@
 // You can write your code in this editor
 
 
-if (alarm_get(0) < 0){
-	
-	
-	
-	alarm_set(0, 50)
-}
+image_speed = 0;
+y = obj_healthbar.y
+
+x = obj_healthbar.x + 670

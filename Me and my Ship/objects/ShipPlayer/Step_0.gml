@@ -42,3 +42,7 @@ if (place_meeting(x, y, obj_asteroid)){
 	instance_destroy(asteroidID)
     show_debug_message(shipHealth)
 }
+
+
+
+

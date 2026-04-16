@@ -8,3 +8,5 @@ rotationSpeed = 5;
 shipHealth = 90
 damageTaken = 0
 damage = 5
+
+pickups = 0

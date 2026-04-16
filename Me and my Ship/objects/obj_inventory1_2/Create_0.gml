@@ -1,10 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+image_speed = 0
 
-if (alarm_get(0) < 0){
-	
-	
-	
-	alarm_set(0, 50)
-}
+y = obj_healthbar.y
+
+x = obj_healthbar.x + 570
