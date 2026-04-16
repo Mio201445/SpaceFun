@@ -34,18 +34,19 @@ else {
 	speed = 0
 }
 
+
 if (place_meeting(x, y, obj_asteroid)){
 	shipHealth -= damage
 	damageTaken += damage
 	
 	var asteroidID = instance_place(x, y, obj_asteroid)
 	instance_destroy(asteroidID)
-    show_debug_message(shipHealth)
+    
 }
 
 
 
-if (keyboard_check_pressed(ord("R"))) && (shipHealth <= 0){
+if (shipHealth <= 0){
 	
 	room_goto(0)
 	
