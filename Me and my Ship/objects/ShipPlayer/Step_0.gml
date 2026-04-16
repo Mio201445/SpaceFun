@@ -45,4 +45,11 @@ if (place_meeting(x, y, obj_asteroid)){
 
 
 
+if (keyboard_check_pressed(ord("R"))) && (shipHealth <= 0){
+	
+	room_goto(0)
+	
+}
+
+
 
