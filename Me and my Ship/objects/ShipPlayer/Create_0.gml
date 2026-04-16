@@ -10,3 +10,5 @@ damageTaken = 0
 damage = 5
 
 pickups = 0
+
+global.score = 0

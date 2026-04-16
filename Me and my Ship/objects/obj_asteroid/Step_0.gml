@@ -23,6 +23,7 @@ if (place_meeting(x, y, obj_projectileleft)){
 	
 	if (image_index = 1){
 	
+		global.score += image_xscale * 100
 		instance_destroy()
 		
 	}
@@ -31,6 +32,7 @@ if (place_meeting(x, y, obj_projectileleft)){
 		image_index = 1
 	}
 	else {
+		global.score += image_xscale * 100
 		instance_destroy()
 	}
 	
@@ -44,6 +46,7 @@ else if (place_meeting(x, y, obj_projectileright)){
 	
 	if (image_index = 1){
 		
+		global.score += image_xscale * 100
 		instance_destroy()
 		
 	}
@@ -52,6 +55,7 @@ else if (place_meeting(x, y, obj_projectileright)){
 		image_index = 1
 	}
 	else {
+		global.score += image_xscale * 100
 		instance_destroy()
 	}
 }

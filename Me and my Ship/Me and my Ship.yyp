@@ -35,6 +35,7 @@
   },
   "name":"Me and my Ship",
   "resources":[
+    {"id":{"name":"fnt_score","path":"fonts/fnt_score/fnt_score.yy",},},
     {"id":{"name":"obj_ammo_storrage","path":"objects/obj_ammo_storrage/obj_ammo_storrage.yy",},},
     {"id":{"name":"obj_ammo","path":"objects/obj_ammo/obj_ammo.yy",},},
     {"id":{"name":"obj_ammotank_left","path":"objects/obj_ammotank_left/obj_ammotank_left.yy",},},
