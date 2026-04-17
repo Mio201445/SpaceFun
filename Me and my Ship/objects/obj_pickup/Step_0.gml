@@ -10,6 +10,8 @@ if (place_meeting(x, y, ShipPlayer)){
 	image_yscale = image_xscale
 	ShipPlayer.pickups ++;
 	pickedUp = true
+	
+	
 
 	
 
@@ -27,6 +29,12 @@ if (pickedUp) {
 			ShipPlayer.shipHealth = 100
 		}
 		
+		obj_inventory1.image_index ++
+		
+		var newX = random(room_width)
+		var newY = random(room_height)
+	
+		instance_create_layer(newX, newY, "Instances", obj_pickup)
 		instance_destroy()
 	}
 }

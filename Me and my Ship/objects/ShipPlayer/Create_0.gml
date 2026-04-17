@@ -12,6 +12,3 @@ damage = 5
 pickups = 0
 
 global.score = 0
-turningL = false
-turningR = false
-turning = false
