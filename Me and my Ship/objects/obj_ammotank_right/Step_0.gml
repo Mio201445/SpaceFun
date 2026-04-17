@@ -1,6 +1,6 @@
 scr_Rotation()
 
-if (100 >= global.ammo_left and global.ammo_left >= 75){
+if (100 >= global.ammo_right and global.ammo_right >= 75){
 	image_index = 0
 }
 else if (75 > global.ammo_right and global.ammo_right >= 50){
