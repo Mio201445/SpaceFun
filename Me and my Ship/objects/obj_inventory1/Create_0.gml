@@ -3,6 +3,6 @@
 
 image_speed = 0
 image_index = 0
-y = obj_healthbar.y
+y = ShipPlayer.y + 400
 
-x = obj_healthbar.x + 500
+x = ShipPlayer.x + 500

@@ -5,7 +5,7 @@ mode = 0;
 global.shipmoveSpeed = 4;
 rotationSpeed = 5;
 
-shipHealth = 90
+shipHealth = 100
 damageTaken = 0
 damage = 5
 

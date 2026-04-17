@@ -21,7 +21,6 @@
     {"name":"inst_322F4186","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_3CE8510A","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_46D4AC67","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_24C7C2FF","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_345C7818","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_71B1D283","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_1C667729","path":"rooms/Room2/Room2.yy",},
@@ -31,7 +30,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_24C7C2FF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24C7C2FF","objectId":{"name":"obj_healthbar","path":"objects/obj_healthbar/obj_healthbar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1504.0,"y":2272.0,},
         {"$GMRInstance":"v1","%Name":"inst_276CF6BF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_276CF6BF","objectId":{"name":"ShipPlayer","path":"objects/ShipPlayer/ShipPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1800.0,"y":1800.0,},
         {"$GMRInstance":"v1","%Name":"inst_3CE8510A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CE8510A","objectId":{"name":"obj_gun2","path":"objects/obj_gun2/obj_gun2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_90848DC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_90848DC","objectId":{"name":"obj_gun1","path":"objects/obj_gun1/obj_gun1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":352.0,},
