@@ -3,19 +3,27 @@
 
 image_angle = direction - 90
 
-
-if (keyboard_check_pressed(ord("A"))){
+if (turningL = true){
+	direction ++
+}
+if (turningR = true){
+	direction --
+}
+if (keyboard_check_pressed(ord("A"))and turning = false){
 	
 	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
-		
-		direction += 90
+		 turningL= true
+		 turning = true
+		 alarm_set(0, 91)
 	}
 }
 
-else if (keyboard_check_pressed(ord("D"))){
+else if (keyboard_check_pressed(ord("D"))and turning = false){
 	
 	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
-		direction -= 90
+		 turningR= true
+		 turning = true
+		 alarm_set(0, 91)
 	}
 }
 
