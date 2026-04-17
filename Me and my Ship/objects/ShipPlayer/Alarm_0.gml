@@ -1,3 +1,4 @@
-turningL = false
-turningR = false
-turning = false
+global.turningL = false
+global.turningR = false
+global.turning = false
+global.rotation_speed = 0

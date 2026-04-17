@@ -3,6 +3,7 @@
 
 image_angle = direction - 90
 
+<<<<<<< Updated upstream
 
 if (keyboard_check_pressed(ord("A"))){
 	
@@ -16,6 +17,31 @@ else if (keyboard_check_pressed(ord("D"))){
 	
 	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
 		direction -= 90
+=======
+if (global.turningL = true){
+	direction ++
+}
+if (global.turningR = true){
+	direction --
+}
+if (keyboard_check_pressed(ord("A"))and global.turning = false){
+	
+	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
+		 global.turningL= true
+		 global.turning = true
+		 global.rotation_speed = 1
+		 alarm_set(0, 91)
+	}
+}
+
+else if (keyboard_check_pressed(ord("D"))and global.turning = false){
+	
+	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
+		 global.turningR= true
+		 global.turning = true
+		 global.rotation_speed = -1
+		 alarm_set(0, 91)
+>>>>>>> Stashed changes
 	}
 }
 

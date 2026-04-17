@@ -1,6 +1,12 @@
-
-scr_Rotation()
-
+if (global.fuel_bottom > 0 and keyboard_check(ord("W"))){
+		speed = global.shipmoveSpeed
+	}
+	else if (global.fuel_top > 0 and keyboard_check(ord("S"))){
+		speed = -global.shipmoveSpeed
+	}
+	else {
+		speed = 0
+	}
 if (held = true){
 	x = Player.x
 	y = Player.y - 10
@@ -82,7 +88,7 @@ break;
 }
 if (!held){
 	if (gravity < 2){
-		gravity += 0.005
+		gravity += 0.01
 	}
 }
 else{

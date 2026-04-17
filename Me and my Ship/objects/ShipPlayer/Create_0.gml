@@ -11,4 +11,12 @@ damage = 5
 
 pickups = 0
 
+<<<<<<< Updated upstream
 global.score = 0
+=======
+global.score = 0
+global.turningL = false
+global.turningR = false
+global.turning = false
+global.rotation_speed = 0
+>>>>>>> Stashed changes

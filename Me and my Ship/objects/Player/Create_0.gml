@@ -10,3 +10,4 @@ jumpForce = 15
 wait = false
 horisontal_movement = 0
 
+

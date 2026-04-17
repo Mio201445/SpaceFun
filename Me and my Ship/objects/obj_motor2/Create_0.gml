@@ -5,6 +5,8 @@ x = ShipPlayer.x
 y = ShipPlayer.y -215
 
 
-pos_mode = 1
-x_vector = x-ShipPlayer.x
-y_vector = y-ShipPlayer.y
+//pos_mode = 1
+//x_vector = x-ShipPlayer.x
+//y_vector = y-ShipPlayer.y
+angle = point_direction(x,y, ShipPlayer.x,ShipPlayer.y)-180
+	rotation_speed = 0
