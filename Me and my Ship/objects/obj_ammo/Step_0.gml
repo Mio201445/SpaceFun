@@ -7,6 +7,7 @@ if (global.fuel_bottom > 0 and keyboard_check(ord("W"))){
 	else {
 		speed = 0
 	}
+	direction = ShipPlayer.direction
 if (held = true){
 	
 	x = Player.x

@@ -3,21 +3,21 @@
 
 image_angle = direction - 90
 
-<<<<<<< Updated upstream
+//<<<<<<< Updated upstream
 
-if (keyboard_check_pressed(ord("A"))){
+//if (keyboard_check_pressed(ord("A"))){
 	
-	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
+//	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
 		
-		direction += 90
-	}
-}
+//		direction += 90
+//	}
+//}
 
-else if (keyboard_check_pressed(ord("D"))){
+//else if (keyboard_check_pressed(ord("D"))){
 	
-	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
-		direction -= 90
-=======
+//	if (!keyboard_check(ord("W"))) && (!keyboard_check(ord("S"))){
+//		direction -= 90
+//=======
 if (global.turningL = true){
 	direction ++
 }
@@ -41,7 +41,7 @@ else if (keyboard_check_pressed(ord("D"))and global.turning = false){
 		 global.turning = true
 		 global.rotation_speed = -1
 		 alarm_set(0, 91)
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
 	}
 }
 
